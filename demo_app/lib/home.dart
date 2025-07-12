@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:demo_app/app.dart';
 
 class Home extends StatelessWidget {
   const Home({super.key});
@@ -10,15 +9,21 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('My first app'), 
         centerTitle: true,
-        backgroundColor: const Color.fromARGB(255, 28, 81, 172),
+        backgroundColor: Colors.deepPurple,
+        shape : RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(300.0),
+        ),
+        
+
       ),
 
       body: SingleChildScrollView(
         child: Column(
+          
           mainAxisAlignment: MainAxisAlignment.center,
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text("Welcome to my first app!", style: TextStyle(
+            Text("Welcome to my app!", style: TextStyle(
               fontSize: 20,
               color: Colors.blue,
               fontWeight: FontWeight.bold,
@@ -33,50 +38,10 @@ class Home extends StatelessWidget {
               color: const Color.fromARGB(255, 224, 56, 5),
               fontWeight: FontWeight.bold,
             ),),
+           Text("scroll"),
             Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
-            Text("scroll"),
+           
+          
             
             Row(
               children: [
