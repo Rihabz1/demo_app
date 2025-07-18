@@ -48,7 +48,7 @@ class mod8C2 extends StatelessWidget {
                     child: TextFormField(
                       controller: phone,
                       validator: (value) {
-                        if (value == null) {
+                        if (value == null || value.isEmpty) {
                           return "please enter your phone number";
                         }
                         if (value.length != 11) {
@@ -77,7 +77,7 @@ class mod8C2 extends StatelessWidget {
                     child: TextFormField(
                       controller: password,
                       validator: (value) {
-                        if (value == null) {
+                        if (value == null || value.isEmpty) {
                           return "please enter your password";
                         }
                         if (value.length < 6) {
