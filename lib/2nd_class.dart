@@ -27,7 +27,6 @@ class flt2 extends StatelessWidget {
           children: [
             ElevatedButton(
               onPressed: () {},
-              child: Text("Set Alarm"),
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.red.shade700,
                 foregroundColor: Colors.white,
@@ -35,6 +34,7 @@ class flt2 extends StatelessWidget {
                   borderRadius: BorderRadius.circular(25.0),
                 ),
               ),
+              child: Text("Set Alarm"),
             ),
             SizedBox(height: 20),
             SizedBox(
@@ -42,7 +42,6 @@ class flt2 extends StatelessWidget {
               width: double.infinity,
               child: ElevatedButton(
                 onPressed: () {},
-                child: Text("Set Alarm"),
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.red.shade700,
                   foregroundColor: Colors.white,
@@ -50,6 +49,7 @@ class flt2 extends StatelessWidget {
                     borderRadius: BorderRadius.circular(25.0),
                   ),
                 ),
+                child: Text("Set Alarm"),
               ),
             ),
             SizedBox(height: 20),
